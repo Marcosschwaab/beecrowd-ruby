@@ -1,0 +1,9 @@
+a = gets.to_f
+b = gets.to_f
+c = gets.to_f
+a = a * 2
+b = b * 3
+c = c * 5
+media = (a + b + c) / 10.0
+media += 0.0000000001
+puts "MEDIA = #{'%.1f' % media}\n"
