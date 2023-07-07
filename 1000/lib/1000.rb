@@ -9,4 +9,11 @@ Você deve imprimir a mensagem "Hello World!" e em seguida o final de linha, con
 =end
 
 
-puts "Hello World!"
+class HelloWorld
+    def self.say_hello
+      'Hello World!'
+    end
+  end
+  
+puts HelloWorld.say_hello
+  
