@@ -18,4 +18,4 @@ puts "Insira o valor b"
 B = gets.chomp.to_i
 
 SOMA = A + B
-puts "SOMA = #{SOMA.to_i}" 
+puts SOMA               #imprime o valor da soma            
